@@ -130,10 +130,9 @@ export default function Checkout() {
     e.preventDefault();
 
     window.open(
-      `https://wa.me/${restaurant.phone}?text=${encodeURIComponent(message())}`,
+      `https://wa.me/${restaurant.phone.replace(/\D/g, "")}?text=${encodeURIComponent(message())}`,
       "_blank"
     );
-
     clear();
     setSent(true);
   };

@@ -30,7 +30,7 @@ export interface Product {
 export const restaurant = {
 name: "Golden Bite",
 tagline: "Every Craving. One Place.",
-phone: "+201009951597",
+phone: "201009951597",
 messenger: "goldenbite.thailand",
 email: "goldenbite@gmail.com",
 address: "Sukhumvit Road, Bangkok 10110, Thailand",

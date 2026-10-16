@@ -112,7 +112,7 @@ const wa = `https://wa.me/201009951597?text=${encodeURIComponent(
                 </a>
 
                 <a
-                     href="tel:+201009951597"
+                     href="tel:01009951597"
                   className="group/call col-span-1 inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-amber-400/20 bg-amber-400/[0.045] px-4 py-3 text-sm font-bold text-amber-200 transition-all duration-300 hover:border-amber-300/50 hover:bg-amber-400/10 sm:col-span-2"
                 >
                   <span className="text-lg">📞</span>
