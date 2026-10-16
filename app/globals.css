@@ -1,0 +1,29 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body{background:#0B0B0B;color:#fff;font-family:var(--font-body),sans-serif}
+@layer components{
+  .card{@apply rounded-2xl border border-white/10 bg-card}
+  .btn{@apply inline-flex items-center justify-center gap-2 rounded-full bg-brand px-6 py-3 font-bold text-black transition hover:brightness-110 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand}
+  .btn-ghost{@apply inline-flex items-center justify-center gap-2 rounded-full border border-white/25 px-6 py-3 font-bold text-white transition hover:border-brand hover:text-brand}
+  .chip{@apply rounded-full border border-white/20 px-5 py-1.5 text-sm text-white/80 transition hover:border-brand}
+  .chip-on{@apply border-brand bg-brand font-bold text-black hover:text-black}
+  .input{@apply w-full rounded-xl border border-white/15 bg-card px-4 py-3 text-white placeholder:text-white/40 focus:border-brand focus:outline-none}
+  .title{@apply font-display text-4xl sm:text-5xl}
+}
+.glow{background:radial-gradient(circle at 70% 50%,rgba(255,150,30,.35),transparent 60%),radial-gradient(circle at 10% 20%,rgba(255,176,46,.12),transparent 45%)}
+@keyframes drift{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-14px) rotate(3deg)}}
+.drift{animation:drift 6s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.drift{animation:none}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
